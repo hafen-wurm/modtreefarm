@@ -26,7 +26,7 @@ public class ForageBotanizeTask extends TileTask
 	public static void setUseOriginalGrowthFunction(boolean b){ useOriginalGrowthFunction = b; }
 	public static boolean getUseOriginalGrowthFunction(){ return useOriginalGrowthFunction; }
 //======================================================================
-	protected ForageBotanizeTask(int rawtile, int tilex, int tiley, double multiplier, double chance, double rnd, boolean onSurface)
+	public ForageBotanizeTask(int rawtile, int tilex, int tiley, double multiplier, double chance, double rnd, boolean onSurface)
 	{
 		super(rawtile, tilex, tiley, onSurface);
 		tasktime *= growthMultiplier * multiplier;

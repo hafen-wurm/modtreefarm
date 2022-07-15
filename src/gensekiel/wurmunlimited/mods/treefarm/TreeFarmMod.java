@@ -22,19 +22,19 @@ public class TreeFarmMod implements
 	ServerStartedListener
 {
 //======================================================================
-	private static WateringAction wateringaction = new WateringAction();
-	private static FertilizingAction fertilizingaction = new FertilizingAction();
-	private static HedgeAction hedgeaction = new HedgeAction();
-	private static GrassGrowAction grassaction = new GrassGrowAction();
-	private static TreeGrassAction treegrassaction = new TreeGrassAction();
-	private static KelpReedGrowAction kelpreedaction = new KelpReedGrowAction();
-	private static ForageBotanizeAction foragebotanizeaction = new ForageBotanizeAction();
-	private static TrellisFruitAction trellisfruitaction = new TrellisFruitAction();
-	private static TrellisAgeAction trellisageaction = new TrellisAgeAction();
-	private static PlanterFruitAction planterfruitaction = new PlanterFruitAction();
-	private static PlanterAgeAction planterageaction = new PlanterAgeAction();
-	private static FarmGrowAction farmgrowaction = new FarmGrowAction();
-	private static FarmFertAction farmfertaction = new FarmFertAction();
+	public static WateringAction wateringaction = new WateringAction();
+	public static FertilizingAction fertilizingaction = new FertilizingAction();
+	public static HedgeAction hedgeaction = new HedgeAction();
+	public static GrassGrowAction grassaction = new GrassGrowAction();
+	public static TreeGrassAction treegrassaction = new TreeGrassAction();
+	public static KelpReedGrowAction kelpreedaction = new KelpReedGrowAction();
+	public static ForageBotanizeAction foragebotanizeaction = new ForageBotanizeAction();
+	public static TrellisFruitAction trellisfruitaction = new TrellisFruitAction();
+	public static TrellisAgeAction trellisageaction = new TrellisAgeAction();
+	public static PlanterFruitAction planterfruitaction = new PlanterFruitAction();
+	public static PlanterAgeAction planterageaction = new PlanterAgeAction();
+	public static FarmGrowAction farmgrowaction = new FarmGrowAction();
+	public static FarmFertAction farmfertaction = new FarmFertAction();
 
 	private static boolean allowGrow = true;
 	private static boolean allowFert = true;
